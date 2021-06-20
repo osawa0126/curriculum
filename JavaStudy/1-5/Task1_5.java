@@ -40,11 +40,15 @@ for (int i = 0; i < fruits.length; i++){
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
 for (int j = 1; j <= 9; j++){
+    System.out.print(j + " || "); 
+    
 for (int g = 1; g <= 9; g++){
-    System.out.print(j + " || " + (j*g) + " | ");
+    System.out.print((j * g) + " | ");
 }
 System.out.println();
 }
+
+
 
     }
 }
